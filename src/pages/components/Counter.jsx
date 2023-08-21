@@ -1,6 +1,6 @@
 const { useState, useEffect } = require("react")
 
-const Counter = () => {
+export const Counter = () => {
   const[count, setCount] = useState(0);
 
   const countUp = () => {
@@ -25,4 +25,3 @@ const Counter = () => {
   )
 }
 
-export default Counter

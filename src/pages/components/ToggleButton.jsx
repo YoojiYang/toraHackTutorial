@@ -1,6 +1,6 @@
 const { useState } = require("react");
 
-const ToggleButton = () => {
+export const ToggleButton = () => {
   const [open, setOpen] = useState(false)
 
   const toggle = () => {
@@ -13,5 +13,3 @@ const ToggleButton = () => {
     </button>
   );
 };
-
-export default ToggleButton

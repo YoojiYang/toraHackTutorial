@@ -1,4 +1,4 @@
-const About = (props) =>  {
+export const About = (props) =>  {
   return (
     <>
       <h1>{props.message}</h1>
@@ -6,5 +6,3 @@ const About = (props) =>  {
     </>
   )
 }
-
-export default About;
