@@ -1,6 +1,7 @@
-import About from "./components/About";
-import Counter from "./components/Counter";
-import ToggleButton from "./components/ToggleButton";
+import { About } from "./components/About";
+import { Counter } from "./components/Counter";
+import { ToggleButton } from "./components/ToggleButton";
+import { GetId } from "./components/GetId";
 
 const Index = (props) =>  {
 
@@ -9,11 +10,12 @@ const Index = (props) =>  {
 
   return (
     <>
-      <About message={ message } name={name}/>
+      <About message={ message } name={name} />
       <Counter />
       <ToggleButton />
+      <GetId />
     </>
-  );
-};
+  );  
+}
 
 export default Index
